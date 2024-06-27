@@ -10,7 +10,7 @@ module.exports = {
   title: "MyAdmin - 通用后台管理系统",
   description: '一个使用SpringBoot3.x的后台管理系统',
   base: '/',//根路径直接访问
-  // base: '/myadmin/',//带二级路径访问
+  // base: '/MyAdmin/',//带二级路径访问
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
